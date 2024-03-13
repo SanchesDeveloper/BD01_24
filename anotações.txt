@@ -1,0 +1,22 @@
+CONSTRANT
+
+São utilizadas para especificar as rehras de dados em uma tabela.
+Limitam os tipos de dados que podem ser armazenados, garantem a consistência dos dados e em caso de qualquer violação de uma rehra definida a operação será
+abosrtada e uma exceção lançada.
+Pode ser de nível de coluna ou de tabela.
+
+Tipos mais comuns de Constraits:
+- NOT NULL
+- UNIQUE
+- PRIMARY KEY
+- FOREIGN KEY - Previnir que acções removam links entre tabelas.
+- CHECK- Garantir que valores de uma coluna satisfação a uma condição específica.
+
+PK - Primary key
+Responsavel por garantir a unicidade do registro em uma tabela.
+Registro é o conjunto de dados contidos nas colunas de uma tabela de banco de dados, tabém chamado de TUPLA.
+Uma tabela pode conter apenas umaPKe ela pode ser simples ou composta.
+
+FK - Foreing key
+É uma campo ou um conjunto de colunas emuma tabela que fazem referência a uma pk de uma tabela externa.
+Uma tabela com uma FK também é chamada de tabela filha e a tabela com a PK específica é chamada de pai/mãe.

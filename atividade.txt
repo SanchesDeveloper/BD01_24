@@ -1,0 +1,7 @@
+ATIVIDADE
+---------
+Uma imobibiliaria precisa de um banco de dados para armazenar informações de seu acervo de imóveis.
+Para insto é preciso organizar os dados dos itens, classificando-os por categoria (apartamentos, casas, sitíos),
+tipo de localidade (rural ou urbano) e tipo de negocio (locação ou venda). Os itens devem possuir os seguintes dados: Nome, descrição, valor, numero de comodos,
+e também uma listagem de imagens.
+Elabore um modelo de entidade-relacionamento que atenda este requisito desenhando um diagrama ilustrativo e escrevendo o seu respectivo script .sql  
